@@ -1,0 +1,14 @@
+# Streamlit runtime config (safe to commit — contains no secrets).
+
+[theme]
+base = "dark"
+primaryColor = "#40C4FF"
+backgroundColor = "#0b0e14"
+secondaryBackgroundColor = "#161b22"
+textColor = "#c9d1d9"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false

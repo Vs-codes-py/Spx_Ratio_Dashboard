@@ -1,0 +1,25 @@
+# ---- Secrets (NEVER commit these) ----
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- Runtime data / logs (regenerated at runtime) ----
+logs/
+*.db
+*.parquet
+*.jsonl
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
